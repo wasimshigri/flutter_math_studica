@@ -2,11 +2,11 @@ import 'dart:convert';
 import 'dart:io';
 
 import 'package:flutter/material.dart';
-import 'package:flutter_math_fork/ast.dart';
-import 'package:flutter_math_fork/flutter_math.dart';
-import 'package:flutter_math_fork/src/parser/tex/parse_error.dart';
-import 'package:flutter_math_fork/src/parser/tex/parser.dart';
-import 'package:flutter_math_fork/src/parser/tex/settings.dart';
+import 'package:flutter_math_studica/ast.dart';
+import 'package:flutter_math_studica/flutter_math.dart';
+import 'package:flutter_math_studica/src/parser/tex/parse_error.dart';
+import 'package:flutter_math_studica/src/parser/tex/parser.dart';
+import 'package:flutter_math_studica/src/parser/tex/settings.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void testTexToMatchGoldenFile(
